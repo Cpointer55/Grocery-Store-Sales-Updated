@@ -18,9 +18,9 @@ class Item
 	Categories foodType;
 	double totalSales = 0;// get total sales from each element of salesNumbers variable array to get the total sales
 	int totalStockSold = 0; // get total stock sold from each element salesNumbers variable array to get total stock sold
-	
+	Days days[7];
+
 	//make two inherited classes					
-	//salesNumbers day[7];
 
 
 	void setName(string n);

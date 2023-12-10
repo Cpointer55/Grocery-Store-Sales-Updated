@@ -23,6 +23,8 @@ public:
 	double getDollarSales();
 	int getStockSold();
 
+	virtual void DisplayItemInfo();
+
 
 
 
