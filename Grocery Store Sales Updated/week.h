@@ -8,7 +8,7 @@
 
 using namespace std;
 
-class week : public Item
+class Week : public Item
 {
 
 
@@ -22,8 +22,8 @@ private:
 
 public:
 
-	week();
-	week(double, int);
+	Week();
+	Week(double, int, Days);
 	void setDollarSales(double);
 	void setStockSold(int);
 	double getDollarSales();

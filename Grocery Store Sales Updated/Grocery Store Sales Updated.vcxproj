@@ -144,7 +144,9 @@
     <ClInclude Include="week.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="day.cpp" />
     <ClCompile Include="Items.cpp" />
+    <ClCompile Include="week.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

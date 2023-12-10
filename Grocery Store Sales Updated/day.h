@@ -4,24 +4,30 @@
 #define day_H
 #include "Items.h"
 
+using namespace std;
+
+enum Days { SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY };
 
 
-class Day : public Item
+class Day 
 {
 
 private:
 	double dollarSales;
 	int stockSold;
-
+	Days day;
+	
 
 
 public:
 	Day();
-	Day(double, int); // total sales and stock sold for the day
+	Day(double, int, Days); // total sales and stock sold for the day
 	void setDollarSales(double);
 	void setStockSold(int);
+	void setDay(Days);
 	double getDollarSales();
 	int getStockSold();
+	string getDay();
 
 	virtual void DisplayItemInfo();
 
