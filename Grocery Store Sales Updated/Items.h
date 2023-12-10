@@ -1,7 +1,9 @@
 #pragma once
 
-#include<iostream>
-using namespace std;
+#ifndef Items_H
+
+#include <string>
+
 
 enum Categories { FRUITS, VEGTABLES, MEAT, SNACKS, DAIRY, BEVERAGES };
 
@@ -38,3 +40,5 @@ class Item
 
 
 };
+
+#endif

@@ -142,6 +142,9 @@
     <ClInclude Include="day.h" />
     <ClInclude Include="Items.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Items.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
